@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Maison Cake — Premium Cakes</title>
+
+    <meta
+        name="description"
+        content="Maison Cake — premium handcrafted cakes made for unforgettable moments."
+    >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         PAGE LOADER
+    ========================== -->
+
+    <div class="loader" id="loader">
+        <div class="loader-content">
+            <span>MAISON</span>
+            <span>CAKE</span>
+        </div>
+    </div>
+
+
+    <!-- =========================
+         NAVIGATION
+    ========================== -->
+
+    <header class="navbar">
+
+        <a href="#home" class="logo">
+            MAISON<span>CAKE</span>
+        </a>
+
+        <nav class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#collection">Cakes</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="#collection" class="nav-button">
+            Explore Cakes
+        </a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+            <span></span>
+            <span></span>
+        </button>
+
+    </header>
+
+
+    <!-- =========================
+         MOBILE MENU
+    ========================== -->
+
+    <div class="mobile-menu" id="mobileMenu">
+
+        <div class="mobile-menu-inner">
+
+            <a href="#home">Home</a>
+            <a href="#collection">Cakes</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+
+            <a href="#collection" class="mobile-menu-button">
+                Explore Collection
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <main>
+
+        <!-- =========================
+             HERO
+        ========================== -->
+
+        <section class="hero" id="home">
+
+            <div class="hero-background"></div>
+
+            <div class="hero-content">
+
+                <p class="eyebrow hero-eyebrow">
+                    HANDCRAFTED • PREMIUM • TIMELESS
+                </p>
+
+                <h1>
+                    Cakes made for
+                    <span>moments worth remembering.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Thoughtfully crafted cakes with refined flavors,
+                    beautiful details, and a little something unforgettable.
+                </p>
+
+                <div class="hero-actions">
+
+                    <a href="#collection" class="primary-button">
+                        Explore Collection
+                        <span>↗</span>
+                    </a>
+
+                    <a href="#about" class="text-button">
+                        Our Story
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-image-wrapper">
+
+                <div class="hero-image">
+                    <img
+                        src="assets/cakes/hero-cake.jpg"
+                        alt="Premium Maison Cake"
+                    >
+                </div>
+
+                <div class="hero-image-caption">
+                    <span>01</span>
+                    <span>MAISON SIGNATURE</span>
+                </div>
+
+            </div>
+
+
+            <div class="hero-scroll">
+
+                <span>SCROLL TO DISCOVER</span>
+
+                <div class="scroll-line"></div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             INTRO
+        ========================== -->
+
+        <section class="intro section-padding">
+
+            <div class="intro-small">
+                <span>01</span>
+                <span>THE MAISON PHILOSOPHY</span>
+            </div>
+
+            <div class="intro-content">
+
+                <h2>
+                    Simple ingredients.
+                    <em>Beautifully crafted.</em>
+                </h2>
+
+                <p>
+                    We believe a great cake doesn't need to be complicated.
+                    Every Maison creation is carefully designed around
+                    balanced flavors, premium ingredients and timeless
+                    presentation.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             COLLECTION
+        ========================== -->
+
+        <section class="collection section-padding" id="collection">
+
+            <div class="section-heading">
+
+                <div>
+                    <p class="eyebrow">OUR COLLECTION</p>
+
+                    <h2>
+                        Five signatures.
+                        <span>One sweet obsession.</span>
+                    </h2>
+                </div>
+
+                <p class="section-description">
+                    Discover our carefully selected collection of
+                    handcrafted favorites.
+                </p>
+
+            </div>
+
+
+            <div class="cake-grid">
+
+
+                <!-- CAKE 01 -->
+
+                <article class="cake-card">
+
+                    <div class="cake-image">
+
+                        <img
+                            src="assets/cakes/velvet-noir.jpg"
+                            alt="Velvet Noir chocolate cake"
+                            loading="lazy"
+                        >
+
+                        <span class="cake-number">01</span>
+
+                        <button
+                            class="cake-view"
+                            data-cake="Velvet Noir"
+                        >
+                            View
+                            <span>↗</span>
+                        </button>
+
+                    </div>
+
+                    <div class="cake-info">
+
+                        <div>
+                            <h3>Velvet Noir</h3>
+
+                            <p>
+                                Dark chocolate · Belgian cocoa
+                            </p>
+                        </div>
+
+                        <span class="cake-price">
+                            ₹1,499
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <!-- CAKE 02 -->
+
+                <article class="cake-card">
+
+                    <div class="cake-image">
+
+                        <img
+                            src="assets/cakes/strawberry-eclat.jpg"
+                            alt="Strawberry Éclat cake"
+                            loading="lazy"
+                        >
+
+                        <span class="cake-number">02</span>
+
+                        <button
+                            class="cake-view"
+                            data-cake="Strawberry Éclat"
+                        >
+                            View
+                            <span>↗</span>
+                        </button>
+
+                    </div>
+
+                    <div class="cake-info">
+
+                        <div>
+                            <h3>Strawberry Éclat</h3>
+
+                            <p>
+                                Fresh strawberry · Vanilla cream
+                            </p>
+                        </div>
+
+                        <span class="cake-price">
+                            ₹1,399
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <!-- CAKE 03 -->
+
+                <article class="cake-card">
+
+                    <div class="cake-image">
+
+                        <img
+                            src="assets/cakes/golden-hazelnut.jpg"
+                            alt="Golden Hazelnut cake"
+                            loading="lazy"
+                        >
+
+                        <span class="cake-number">03</span>
+
+                        <button
+                            class="cake-view"
+                            data-cake="Golden Hazelnut"
+                        >
+                            View
+                            <span>↗</span>
+                        </button>
+
+                    </div>
+
+                    <div class="cake-info">
+
+                        <div>
+                            <h3>Golden Hazelnut</h3>
+
+                            <p>
+                                Roasted hazelnut · Milk chocolate
+                            </p>
+                        </div>
+
+                        <span class="cake-price">
+                            ₹1,599
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <!-- CAKE 04 -->
+
+                <article class="cake-card">
+
+                    <div class="cake-image">
+
+                        <img
+                            src="assets/cakes/vanilla-bloom.jpg"
+                            alt="Vanilla Bloom cake"
+                            loading="lazy"
+                        >
+
+                        <span class="cake-number">04</span>
+
+                        <button
+                            class="cake-view"
+                            data-cake="Vanilla Bloom"
+                        >
+                            View
+                            <span>↗</span>
+                        </button>
+
+                    </div>
+
+                    <div class="cake-info">
+
+                        <div>
+                            <h3>Vanilla Bloom</h3>
+
+                            <p>
+                                Madagascar vanilla · Chantilly cream
+                            </p>
+                        </div>
+
+                        <span class="cake-price">
+                            ₹1,299
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <!-- CAKE 05 -->
+
+                <article class="cake-card">
+
+                    <div class="cake-image">
+
+                        <img
+                            src="assets/cakes/berry-muse.jpg"
+                            alt="Berry Muse cake"
+                            loading="lazy"
+                        >
+
+                        <span class="cake-number">05</span>
+
+                        <button
+                            class="cake-view"
+                            data-cake="Berry Muse"
+                        >
+                            View
+                            <span>↗</span>
+                        </button>
+
+                    </div>
+
+                    <div class="cake-info">
+
+                        <div>
+                            <h3>Berry Muse</h3>
+
+                            <p>
+                                Mixed berries · Cream cheese
+                            </p>
+                        </div>
+
+                        <span class="cake-price">
+                            ₹1,499
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             FEATURE BANNER
+        ========================== -->
+
+        <section class="feature-section">
+
+            <div class="feature-image">
+
+                <img
+                    src="assets/cakes/cake-detail.jpg"
+                    alt="Maison Cake handcrafted detail"
+                    loading="lazy"
+                >
+
+            </div>
+
+            <div class="feature-content">
+
+                <p class="eyebrow">
+                    MADE WITH INTENTION
+                </p>
+
+                <h2>
+                    Every detail
+                    <em>has a purpose.</em>
+                </h2>
+
+                <p>
+                    From the first layer to the final decoration,
+                    every Maison cake is finished by hand with
+                    attention to flavor, texture and presentation.
+                </p>
+
+                <a href="#about" class="line-button">
+                    Discover our story
+                    <span>→</span>
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             WHY US
+        ========================== -->
+
+        <section class="values section-padding">
+
+            <div class="values-heading">
+
+                <p class="eyebrow">
+                    WHY MAISON
+                </p>
+
+                <h2>
+                    The little things
+                    <span>make the difference.</span>
+                </h2>
+
+            </div>
+
+
+            <div class="values-grid">
+
+                <div class="value-item">
+
+                    <span class="value-number">01</span>
+
+                    <h3>
+                        Freshly Crafted
+                    </h3>
+
+                    <p>
+                        Every cake is prepared fresh for your order,
+                        never sitting on a shelf waiting for its moment.
+                    </p>
+
+                </div>
+
+
+                <div class="value-item">
+
+                    <span class="value-number">02</span>
+
+                    <h3>
+                        Premium Ingredients
+                    </h3>
+
+                    <p>
+                        Carefully selected ingredients create
+                        flavors that are as memorable as the occasion.
+                    </p>
+
+                </div>
+
+
+                <div class="value-item">
+
+                    <span class="value-number">03</span>
+
+                    <h3>
+                        Made For You
+                    </h3>
+
+                    <p>
+                        From birthdays to quiet celebrations,
+                        every creation is made to feel personal.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             ABOUT
+        ========================== -->
+
+        <section class="about section-padding" id="about">
+
+            <div class="about-number">
+                02
+            </div>
+
+            <div class="about-content">
+
+                <p class="eyebrow">
+                    OUR STORY
+                </p>
+
+                <h2>
+                    A small idea,
+                    <em>made beautifully.</em>
+                </h2>
+
+                <p class="about-text">
+                    Maison Cake began with a simple belief:
+                    celebrations deserve something made with care.
+                    What started as a love for baking became a collection
+                    of cakes designed to bring people together.
+                </p>
+
+                <p class="about-signature">
+                    — Maison Cake
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CTA
+        ========================== -->
+
+        <section class="cta" id="contact">
+
+            <div class="cta-inner">
+
+                <p class="eyebrow">
+                    YOUR NEXT CELEBRATION
+                </p>
+
+                <h2>
+                    Make it
+                    <em>unforgettable.</em>
+                </h2>
+
+                <p>
+                    Tell us what you're celebrating
+                    and we'll take care of the sweet part.
+                </p>
+
+                <a href="#" class="primary-button cta-button">
+                    Order Your Cake
+                    <span>↗</span>
+                </a>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="footer">
+
+        <div class="footer-top">
+
+            <div class="footer-brand">
+
+                <a href="#home" class="logo footer-logo">
+                    MAISON<span>CAKE</span>
+                </a>
+
+                <p>
+                    Premium cakes for
+                    unforgettable moments.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <div>
+                    <span>EXPLORE</span>
+
+                    <a href="#home">Home</a>
+                    <a href="#collection">Cakes</a>
+                    <a href="#about">Our Story</a>
+                </div>
+
+
+                <div>
+                    <span>CONNECT</span>
+
+                    <a href="#">Instagram</a>
+                    <a href="#">WhatsApp</a>
+                    <a href="#">Email</a>
+                </div>
+
+
+                <div>
+                    <span>VISIT</span>
+
+                    <p>
+                        Kolkata, India
+                    </p>
+
+                    <p>
+                        Mon — Sun
+                        <br>
+                        10:00 — 21:00
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <span>
+                © 2026 Maison Cake
+            </span>
+
+            <span>
+                Crafted with intention.
+            </span>
+
+        </div>
+
+    </footer>
+
+
+    <!-- =========================
+         CAKE MODAL
+    ========================== -->
+
+    <div class="cake-modal" id="cakeModal">
+
+        <div class="modal-overlay" id="modalOverlay"></div>
+
+        <div class="modal-content">
+
+            <button
+                class="modal-close"
+                id="modalClose"
+                aria-label="Close cake details"
+            >
+                ×
+            </button>
+
+            <div class="modal-image">
+
+                <img
+                    id="modalImage"
+                    src=""
+                    alt=""
+                >
+
+            </div>
+
+            <div class="modal-info">
+
+                <span class="modal-number" id="modalNumber">
+                    01
+                </span>
+
+                <p class="eyebrow">
+                    MAISON COLLECTION
+                </p>
+
+                <h2 id="modalTitle">
+                    Velvet Noir
+                </h2>
+
+                <p id="modalDescription">
+                    A rich chocolate creation crafted with
+                    Belgian cocoa and smooth cream.
+                </p>
+
+                <div class="modal-bottom">
+
+                    <strong id="modalPrice">
+                        ₹1,499
+                    </strong>
+
+                    <a href="#contact" class="primary-button">
+                        Order This Cake
+                        <span>↗</span>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         JAVASCRIPT
+    ========================== -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
